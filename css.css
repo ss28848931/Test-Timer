@@ -1,0 +1,27 @@
+body{
+   margin: 0px;
+   display: block;
+}
+#container{
+   position: absolute;
+   text-align: center;
+   margin: auto;
+   margin-top: 200px; 
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+#timer{
+   margin: 0px;
+   font-family: roboto;
+   font-size: 100px;
+   font-weight: 300;
+}
+button{
+   width: 100px;
+   height: 35px;
+}
+button:hover{ 
+   cursor: pointer;
+}
