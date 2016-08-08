@@ -2,26 +2,70 @@ body{
    margin: 0px;
    display: block;
 }
-#container{
+
+button{
+   width: 100px;
+   height: 35px;
+   border: none;
+   outline: none; 
+   opacity: .8;
+   height: 50px;
+   width: 50px;
+   margin: 14px 0px;
+}
+
+button:hover{ 
+   cursor: pointer;
+}
+
+#mainContainer{
    position: absolute;
-   text-align: center;
    margin: auto;
-   margin-top: 200px; 
+   white-space: nowrap;
    top: 0;
    bottom: 0;
    left: 0;
    right: 0;
 }
+
+#container{
+   background-color: rgba(216, 240, 151, 0.7);
+}
+
 #timer{
    margin: 0px;
+   width: 200px;
+   display: initial;
    font-family: roboto;
-   font-size: 100px;
+   font-size: 70px;
    font-weight: 300;
 }
-button{
-   width: 100px;
-   height: 35px;
+#title{
+   display: inline-block;
+   width: 350px;
 }
-button:hover{ 
-   cursor: pointer;
+.controls{
+   display: inline-block;
+}
+
+#start{
+   background: url(images/playbutton.png) no-repeat;
+}
+
+#pause{
+   background: url(images/pausebutton.png) no-repeat;
+}
+
+#addbutton{
+   background: url(images/addbutton.png) no-repeat;
+}
+
+#repeat{
+   opacity: .8;
+   height: 50px;
+   width: 50px;
+   margin: 14px 0px;
+   background: url(images/repeatbutton.png) no-repeat;
+   border: none;
+   outline: none;  
 }
